@@ -6,7 +6,7 @@ function checkAnswer() {
         feedback.textContext = "Correct! Well done.";
     }
     else {
-        feedback.textContext = "That's incorrect. Try again";
+        feedback.textContext = "That's incorrect. Try again!";
     }
 
     const submitButton = document.getElementById("submit-answer");
