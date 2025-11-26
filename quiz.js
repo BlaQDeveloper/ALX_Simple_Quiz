@@ -3,7 +3,7 @@ function checkAnswer() {
     const userAnswer = document.querySelector("input[name='quiz']:checked").value();
 
     if (userAnswer === correctAnswer) {
-        feedback.textContext = "Correct! Well done";
+        feedback.textContext = "Correct! Well done.";
     }
     else {
         feedback.textContext = "That's incorrect. Try again";
